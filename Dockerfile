@@ -1,6 +1,6 @@
 FROM node
 WORKDIR /app
-COPY pacjage.json .
+COPY package.json .
 RUN npm install
 COPY server.js .
 EXPOSE 3000
