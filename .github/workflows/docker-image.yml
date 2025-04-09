@@ -20,7 +20,7 @@ jobs:
       with: 
           image: ghareeb8/D_NODE_Lab
           registry: docker.io
-          dockerfile: Dockerfile
+          dockerfile: DockerFile
           username: "${{ secrets.DHUB_UNAME }}"
           password: "${{ secrets.DHUB_PSW }}"
           tags: latest  
